@@ -1,1 +1,3 @@
-# Stock-Predictor
+# StockStream
+
+https://stockstream.streamlit.app/
