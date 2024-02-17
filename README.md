@@ -1,3 +1,3 @@
-# StockStream
+#Hey Everyone
 
-https://stockstream.streamlit.app/
+We made a stock price predictor
