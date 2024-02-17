@@ -15,7 +15,19 @@ import time  # time library
 from streamlit_option_menu import option_menu  # select_options library
 
 st.set_page_config(layout="wide", initial_sidebar_state="expanded")
+def toggle_theme():
+    current_theme = st.config.get_option("theme")
+    new_theme = "dark" if current_theme == "light" else "light"
+    st.write(f"Changing theme to {new_theme} mode...")
+    st.experimental_set_query_params(theme=new_theme)
 
+# Create a placeholder column to push the button to the right
+col1, col2 = st.columns([1, 9])
+
+# Button to toggle theme
+with col2:
+    if st.button("Toggle Day/Night Mode"):
+        toggle_theme()
 def add_meta_tag():
     meta_tag = """
         <head>
