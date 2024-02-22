@@ -14,6 +14,12 @@ The Stock Price Predictor is a tool designed for investors and traders to make i
 - Customization Options: Tailor predictions based on specific stocks and timeframes.
 - Accuracy Assessment: Evaluate the performance of the predictor through accuracy metrics and visualizations.
 
+
+![image](https://github.com/Priyam12111/Stock-Predictor/assets/88043917/2ee14231-26f3-4cc4-a75f-da1fda79e7c7)
+
+## Approach To Solve The News Contribution in Stock Market
+![image](https://github.com/Priyam12111/Stock-Predictor/assets/88043917/10cb096c-7398-4298-af2f-d10aa3cf7353)
+
 ## Usage
 
 1. Provide historical stock data for the desired stock.
@@ -27,3 +33,12 @@ To install the stock price predictor, follow these steps:
 
 ```bash
 pip install requirements.txt
+```
+Now to run the tool:
+
+```bash
+streamlit run StockStream.py
+```
+
+Model running live on: 
+[Stock Predictor Tool](https://stock-predictor-rofyrhekq4vuriyh9qvqds.streamlit.app/)
